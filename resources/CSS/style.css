@@ -7,6 +7,9 @@ header{
   height: 80px;
   border-bottom: 1px solid black;
   align-items: center;
+  position: fixed;
+  background-color: white;
+  top: 0px;
 }
 
 .logo{
@@ -45,6 +48,7 @@ a{
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  padding-top: 80px;
 }
 
 .container span{
