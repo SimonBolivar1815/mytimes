@@ -39,3 +39,64 @@ nav span{
 a{
   color: black;
 }
+
+.container{
+  display:flex;
+}
+
+.column{
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0 20px;
+}
+
+.column.large{
+  border: 1px solid black;
+  flex-flow: column;
+  margin-left: 20px;
+}
+
+.large{
+  width: 630px;
+}
+
+.column,.large,.top{
+  border: 1px solid black;
+}
+
+
+.column.medium{
+  border: 1px solid black;
+  height: 500px;
+  width: 300px;
+}
+
+.medium .top{
+  border: 2px solid black;
+}
+
+.medium .bottom{
+  border: 1px solid black;
+}
+
+.medium .bottom span{
+  display: flex;
+  border: 1px dashed red;
+}
+
+.medium{
+  width: 300px;
+}
+
+.column.small{
+  border: 1px solid black;
+}
+
+.small{
+  width: 240px;
+}
+
+.small .text{
+  border: 1px solid black;
+}
